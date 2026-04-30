@@ -119,13 +119,13 @@ sudo raspi-config
 Start the server:
 
 ```bash
-uvicorn server:app --host 0.0.0.0 --port 8000
+uvicorn server:app --host 0.0.0.0 --port 5000
 ```
 
 The server will begin collecting sensor data immediately on startup. Access the interactive API docs at:
 
 ```
-http://<raspberry-pi-ip>:8000/docs
+http://<raspberry-pi-ip>:5000/docs
 ```
 
 ---
